@@ -2,7 +2,7 @@ This was a project for my operating systems class.
 
 The purpose of the project was to create a program that simulates a terminal.
 
-One thing to note is that you can input multiple commands in one line, separating the them by a semicolon.
+One thing to note is that you can input multiple commands in one line, separating them by a semicolon.
 
 It will continuously ask the user to input a command until the user inputs "exit".
 

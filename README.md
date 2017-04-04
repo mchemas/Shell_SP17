@@ -12,7 +12,7 @@ From there a thread is created and ran for each command.
 
 The run() method is called on the thread. run() simply calls the commands method.
 
-Inside the commands method it checks to see if the command() is either clr, echo, help, or pause.
+Inside the commands method it checks to see if the command is either clr, echo, help, or pause.
 
 Each one of those is handled distinctly. If it is not, it passes the command to otherProcess method.
 

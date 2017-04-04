@@ -176,7 +176,7 @@ public class Shell extends Thread {
 					col[i] = col[i].trim();
 					
 					Thread myT = new Thread(new Shell(col[i]));
-					myT.run();	
+					myT.start();	
 				}
 				
 				
